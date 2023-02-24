@@ -1,0 +1,71 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+header{
+  background-color:#F5F5F5;
+  margin:0 auto;
+  height:70px;
+}
+.nav{
+  width:85%;
+  margin:0 auto;
+
+}
+.container{
+  padding-top:20px;
+}
+.title{
+  display:inline-block;
+}
+ul{
+  float:right;
+}
+li{
+  list-style:none;
+  float:left;
+  margin-right:20px;
+}
+.fa{
+  padding-right:5px;
+}
+.logo{
+  background-image:url(img/DSC03173.jpg);
+  background-size:cover;
+  margin:0 auto;
+  width:100%;
+  height:700px;
+}
+.top{
+  color:#EEEEEE;
+  font-size:40px;
+  text-align: center;
+  padding-top:400px;
+}
+.font{
+  font-family:"Courier New";
+}
+.profile{
+ height:300px;
+ width:80%;
+ margin: 0 auto;
+}
+.profileimage{
+  display:inline-block;
+}
+.profileimg{
+  border-radius: 50%;
+  height:250px;
+  width:250px;
+  margin:50px 0px 0 30px;
+}
+.introduction{
+  display:inline-block;
+  width:40%;
+  
+}
+.name{
+  font-size:30px;
+
+}
