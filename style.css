@@ -4,9 +4,11 @@
 }
 
 header{
+  position: fixed;
   background-color:#F5F5F5;
   margin:0 auto;
   height:70px;
+  width:100%;
 }
 .nav{
   width:85%;
@@ -47,25 +49,32 @@ li{
   font-family:"Courier New";
 }
 .profile{
+ display:flex;
+ justify-content:center;
  height:300px;
- width:80%;
  margin: 0 auto;
 }
 .profileimage{
   display:inline-block;
+  padding-right:30px;
+  
 }
 .profileimg{
   border-radius: 50%;
   height:250px;
-  width:250px;
-  margin:50px 0px 0 30px;
+  margin:50px 50px 0 0px;
 }
 .introduction{
+  padding:100px 0 0 50px;
   display:inline-block;
-  width:40%;
+  vertical-align: middle;
   
 }
 .name{
   font-size:30px;
-
+}
+.intro{
+  text-align:center;
+  font-size:17px;
+  padding-top:50px;
 }
