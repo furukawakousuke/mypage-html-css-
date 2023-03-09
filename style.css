@@ -24,8 +24,13 @@ p{
 .container{
   padding-top:20px;
 }
+.head{
+  padding-top:50px;
+}
 .title{
   display:inline-block;
+  font-size:20px;
+  list-style:none;
 }
 ul{
   float:right;
@@ -65,7 +70,7 @@ a{
 }
 .title1{
   text-align: center;
-  text-align:0 auto;
+  margin:0 auto;
   font-size:30px;
 }
 .headline{
@@ -94,7 +99,8 @@ a{
   padding-bottom:5px;
 }
 .intro{
-  text-align:center;
+  justify-content:center;
+  text-align: center;
   font-size:17px;
   padding-top:50px;
 }
@@ -133,5 +139,25 @@ a{
 @media screen and (max-width:768px ) {
   .logo{
     background-image:url(img/DSC02862-Edit.jpeg);
+  }
+  .profile{
+    height:500px;
+  width:100%;
+  text-align:center;
+  display:block;
+  }
+  .profileimage{
+    padding:40px 0px 0 0;
+  }
+  .image{
+    display:block;
+    justify-content:center;
+    text-align:center;
+    margin:0px 0px 0px 0px;
+  }
+  .introduction{
+    display:block;
+    margin:0 auto;
+    padding:40px 0 0 0;
   }
 }
