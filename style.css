@@ -9,6 +9,8 @@ header{
   margin:0 auto;
   height:70px;
   width:100%;
+  z-index:10;
+  
 }
 p{
   color:white;
@@ -81,7 +83,16 @@ a{
 .profileimage{
   display:inline-block;
   padding-right:30px;
-  
+
+}
+.post{
+  opacity: 0;
+	transform: translateY(30px);
+	transition: opacity 1.5s, transform 1s;
+}
+.post.active{
+	opacity: 1;
+	transform: translateY(0px);
 }
 .profileimg{
   border-radius: 50%;
@@ -92,7 +103,7 @@ a{
   padding:100px 0 0 50px;
   display:inline-block;
   vertical-align: middle;
-  
+
 }
 .name{
   font-size:30px;
@@ -157,7 +168,7 @@ a{
   padding:0 30px;
 }
 .fa-twitter{
- color:#1E90FF; 
+ color:#1E90FF;
 }
 .mail{
   padding:0 30px;
@@ -219,7 +230,7 @@ a{
     height:200px;
     width:300px;
   }
-  
+
   #hm-icon {
   position: fixed;
   right: 30px;
@@ -292,5 +303,5 @@ a{
   text-decoration: none;
   font-weight: bold;
 }
-  
+
 }
